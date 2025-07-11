@@ -31,6 +31,7 @@ jobs:
           pr_teams_reviewers: demo-team
           pr_title: Demo
           pr_body: "Review that"
+          custom_github_token: ${{ secrets.GH_PAT }}
           additional_params: |
             --indentation=2sp
             --export-sort=a_z
